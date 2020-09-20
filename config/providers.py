@@ -17,6 +17,7 @@ from masonite.providers import (
     CsrfProvider,
 )
 
+from masonite.emails_viewer import EmailViewerProvider
 """
 |--------------------------------------------------------------------------
 | Providers List
@@ -52,7 +53,7 @@ PROVIDERS = [
     # HelpersProvider,
 
     # Third Party Providers
-
+    EmailViewerProvider
     # Application Providers
 
 ]
