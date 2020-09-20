@@ -7,3 +7,6 @@ masonite_validation*
 dist
 .env
 *.db
+
+# Frontend
+node_modules
