@@ -47,7 +47,7 @@ class EmailsController(Controller):
                             'path': os.path.join(root, file)
                         })
 
-        return view.render('emails', {'emails': emails, 'settings': settings})
+        return view.render('emails_preview/index', {'emails': emails, 'settings': settings})
 
     def detail(self, view: View, mail: Mail):
         name = self.request.param('name')

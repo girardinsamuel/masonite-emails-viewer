@@ -6,7 +6,12 @@ setup(
     # the version across setup.py and the project code, see
     # https://packaging.python.org/en/latest/single_source_version.html
     version="0.0.1",
-    packages=["masonite.emails_viewer"],
+    packages=[
+        "masonite.emails_viewer",
+        "masonite.emails_viewer.providers",
+        "masonite.emails_viewer.controllers",
+        "masonite.emails_viewer.commands",
+    ],
     package_dir={"": "src"},
     description="Basic Boilerplate Package",
     long_description="Basic Boilerplate Package",

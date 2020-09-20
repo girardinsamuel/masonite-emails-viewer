@@ -1,7 +1,7 @@
 """A EmailViewerProvider Service Provider."""
 import os
 from masonite.provider import ServiceProvider
-from masonite.emails_viewer import InstallCommand
+from masonite.emails_viewer.commands.InstallCommand import InstallCommand
 
 package_directory = os.path.dirname(os.path.realpath(__file__))
 
@@ -13,7 +13,7 @@ class EmailViewerProvider(ServiceProvider):
 
     def register(self):
         """Register objects into the Service Container."""
-        self.app.bind("InstallCommand", InstallCommand)
+        self.app.bind("InstallCommand", InstallCommand())
 
     def boot(self):
         """Boots services required by the container."""
