@@ -1,10 +1,10 @@
 
+# Masonite Emails Viewer
 <p align="center">
-<img src="https://i.imgur.com/rEXcoMn.png" width="160px"> 
+<img src="https://i.imgur.com/rEXcoMn.png" width="160px">
 </p>
 
-[Github Actions status](https://github.com/MasoniteFramework/package/workflows/Test%20Application/badge.svg)
-[![Coverage Status](https://coveralls.io/repos/github/MasoniteFramework/package/badge.svg?branch=master)](https://coveralls.io/github/MasoniteFramework/package?branch=master)
+[![Tests](https://github.com/girardinsamuel/masonite-emails-viewer/workflows/Test%20Application/badge.svg)](https://github.com/girardinsamuel/masonite-emails-viewer/actions?query=workflow%3A%22Test+Application%22)
 
 ## Learning Masonite
 
