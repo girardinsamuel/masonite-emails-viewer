@@ -1,10 +1,17 @@
 
-# Masonite Emails Viewer
+# Masonite Emails Viewer [WIP]
 <p align="center">
 <img src="https://i.imgur.com/rEXcoMn.png" width="160px">
 </p>
 
 [![Tests](https://github.com/girardinsamuel/masonite-emails-viewer/workflows/Test%20Application/badge.svg)](https://github.com/girardinsamuel/masonite-emails-viewer/actions?query=workflow%3A%22Test+Application%22)
+
+
+## Screenshots
+
+![Home](./preview/home.png)
+![Email preview](./preview/email_preview.png)
+![Email preview (text)](./preview/email_preview_text.png)
 
 ## Learning Masonite
 
