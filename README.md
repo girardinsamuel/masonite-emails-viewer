@@ -89,7 +89,10 @@ You can add some placeholder parameters to your `Mailable` in order to have a in
 * add better parsing of parameters from front to back
 * DRY for the controller (autoloading ?)
 * finish installation config and test it
+* add dark mode
 * open a PR in Masonite repo to add a feature to the Mailable class
+* check CI
+* add versioning and PyPi publish
 
 ## How to contribute
 TO DO
