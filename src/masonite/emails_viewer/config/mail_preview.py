@@ -1,0 +1,2 @@
+
+MAILABLES_DIR = "mailable"
